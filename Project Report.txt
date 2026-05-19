@@ -1,0 +1,58 @@
+Credit Card Fraud Detection Project Report
+
+1. Introduction
+
+This project detects fraudulent credit card transactions using machine learning and anomaly detection
+techniques.
+
+2. Problem Statement
+
+The goal is to identify fraudulent transactions from highly imbalanced transaction data.
+3. Objectives
+
+Preprocess data, apply anomaly detection, train XGBoost classifier, evaluate performance, and deploy
+a dashboard.
+
+4. Technologies Used
+
+Python, Pandas, NumPy, Scikit-learn, XGBoost, Matplotlib, Streamlit.
+
+5. Author
+Rathod Vaishnaviba Amitsinh
+
+6. Dataset
+
+Dataset contains Time, Amount, V1-V28 anonymized features, and Class labels.
+
+7. Algorithms Used
+
+Isolation Forest, Local Outlier Factor (LOF), and XGBoost.
+
+8. Methodology
+
+Data Loading → Preprocessing → SMOTE → Model Training → Evaluation → Deployment.
+
+9. Evaluation
+
+Confusion matrix, ROC curve, precision, recall, F1-score, and accuracy were used.
+
+10. Deployment
+
+The model is deployed using Streamlit for real-time prediction.
+
+11. Conclusion
+
+The project successfully demonstrates fraud detection using machine learning.
+
+12. Project Structure
+
+Project Structure
+
+Fraud Detection/
+■■■ data/
+■ ■■■ creditcard.csv
+■■■ fraud_detection.ipynb
+■■■ train_model.py
+■■■ app.py
+■■■ requirements.txt
+■■■ saved_model.pkl
